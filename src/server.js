@@ -14,6 +14,7 @@ app.get("/", (req,res)=> res.render("home"));
 console.log(__dirname);
 const hadleListening = () => {
     console.log(`✅ Server running: http://localhost:${4000}`);
+    console.log(__dirname);
 }
 
 app.listen(PORT, hadleListening);
